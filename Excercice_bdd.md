@@ -1,4 +1,4 @@
-# 📋 Trame de paramétrage — Base REDCap « ONCOTD »
+# 📋 Trame de paramétrage — Base REDCap « Formation»
 
 > **Contexte** : Étude observationnelle prospective mono/multicentrique évaluant la prise en charge et la qualité de vie de patients atteints de tumeurs solides traités par chimiothérapie.
 >
