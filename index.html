@@ -496,13 +496,13 @@ const QUESTIONS = [
     text: `Lors de la création d'un nouveau projet REDCap pour un essai clinique en oncologie, REDCap génère automatiquement un champ. Lequel ?`,
     options: [
       "Le champ <code>diagnostic_principal</code>",
-      "Le champ <code>record_id</code> (identifiant unique de l'enregistrement)",
+      "Le champ <code>record_id</code>",
       "Le champ <code>date_inclusion</code>",
-      "Un champ de consentement"
+      "Le champ <code>record_id</code> ou tout autre champ avec des valeurs uniques"
     ],
-    answer: 1,
-    solution: `<p><strong>Réponse : B. Le champ <code>record_id</code></strong></p>
-<p>Tout projet REDCap contient obligatoirement un premier champ qui sert d'identifiant unique pour chaque enregistrement. Par défaut, il s'appelle <code>record_id</code>. Il est toujours placé en premier sur le premier instrument. Ce champ ne peut pas être supprimé mais peut être renommé.</p>`
+    answer: 3,
+    solution: `<p><strong>Réponse : D. Le champ <code>record_id</code> ou tout autre champ</strong></p>
+<p>Tout projet REDCap contient obligatoirement un premier champ qui sert d'identifiant unique pour chaque enregistrement. Par défaut, il s'appelle <code>record_id</code>. Il est toujours placé en premier sur le premier instrument. Ce champ ne peut pas être supprimé mais peut être renommé. On peut également sélectionner un autre champ avec des valeurs uniques</p>`
   },
   {
     section: 1,
