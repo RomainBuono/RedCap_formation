@@ -10,7 +10,7 @@
 
 | Paramètre | Valeur à configurer |
 |---|---|
-| Titre du projet | `ONCOTD – Suivi patients chimio` |
+| Titre du projet | `Formation – Suivi patients chimio` |
 | Purpose | `Research` |
 | Use surveys | ✅ Activé |
 | Repeating Instruments | ✅ Activé pour l'instrument *Cycle de chimiothérapie* |
