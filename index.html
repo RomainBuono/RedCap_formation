@@ -679,17 +679,19 @@ const QUESTIONS = [
   },
   {
     section: 3,
-    label: "Data Dictionary CSV",
-    text: `Le Data Dictionary CSV contient toutes les métadonnées d'un projet. Quelle colonne définit la <strong>branching logic</strong> d'un champ ?`,
+    label: "Intérêt du Data Dictionary CSV",
+    text: `Le <strong>Data Dictionary</strong> est un fichier CSV que l'on peut exporter depuis REDCap. Parmi les affirmations suivantes, laquelle décrit le mieux ses <strong>deux intérêts principaux</strong> ?`,
     options: [
-      "<code>field_note</code>",
-      "<code>field_annotation</code>",
-      "<code>branching_logic</code>",
-      "<code>required_field</code>"
+      "Il permet uniquement de documenter la structure de la base de données pour l'archivage réglementaire",
+      "Il sert à la fois de <strong>documentation exhaustive</strong> de la base (variables, types, logique) et de <strong>moyen de modification en masse</strong> du projet en le ré-important après édition, sans passer par l'Online Designer",
+      "Il sert uniquement à modifier le projet sans interface graphique, mais ne constitue pas une documentation exploitable",
+      "Il remplace l'Online Designer et doit obligatoirement être utilisé pour créer un projet"
     ],
-    answer: 2,
-    solution: `<p><strong>Réponse : C. <code>branching_logic</code></strong></p>
-<p>Le Data Dictionary est un fichier CSV avec des colonnes standardisées. La colonne <code>branching_logic</code> contient la condition d'affichage du champ. Les autres colonnes clés sont : <code>field_name</code>, <code>form_name</code>, <code>field_type</code>, <code>field_label</code>, <code>select_choices_or_calculations</code>, <code>field_annotation</code> (pour les action tags), <code>text_validation_type_or_show_slider_number</code>, <code>required_field</code>, etc.</p>`
+    answer: 1,
+    solution: `<p><strong>Réponse : B. Documentation exhaustive + modification en masse par import</strong></p>
+<p>Le Data Dictionary a un <strong>double intérêt</strong> fondamental :</p>
+<p><strong>1. Documenter la base</strong> : il décrit l'intégralité de la structure du projet (noms de variables, types de champs, labels, choix de réponse, branching logic, action tags, validations…). C'est le document de référence pour le data management plan, les audits réglementaires, et la transmission du projet entre équipes.</p>
+<p><strong>2. Modifier REDCap sans l'interface graphique</strong> : on peut exporter le CSV, l'éditer dans un tableur ou par script (Python, R), puis le ré-importer dans REDCap. Cela permet des modifications en masse impossibles via l'Online Designer (renommer 50 variables, ajouter une branching logic à 30 champs, dupliquer un instrument…). C'est la méthode privilégiée sur les gros projets en oncologie avec des centaines de variables.</p>`
   },
 
   // ── Partie 4: Branching Logic (Q17–Q22) ──
