@@ -11,7 +11,7 @@
 > | 2 | Institut Gustave Roussy (IGR) — Paris | France |
 > | 3 | Royal Marsden Hospital — London | Royaume-Uni |
 >
-> **Étudiantes** : Mélodie et Sanaé construisent chacune leur propre projet REDCap et s'invitent mutuellement.
+> **Étudiantes** : Mélodie et Joséphine construisent chacune leur propre projet REDCap et s'invitent mutuellement.
 
 ---
 
@@ -206,16 +206,16 @@ Dans *User Rights*, créer les rôles suivants :
 | **Investigateur Principal** | Tous les droits sauf : Design, User Rights. Accès à son DAG uniquement. Export : Full. |
 | **TRC (Technicien de Recherche Clinique)** | Data Entry : saisie + modification sur les instruments. Pas de droits de suppression, pas d'export, pas de randomisation, pas de User Rights, pas de Design. Accès à son DAG uniquement. |
 
-### 1.3 Consignes pour Mélodie et Sanaé
+### 1.3 Consignes pour Mélodie et Joséphine
 
 **Mélodie** construit son projet et réalise les actions suivantes :
 1. Créer les DAGs `Lyon_CLB`, `Paris_IGR`, `London_RM`
 2. Créer le rôle `TRC`
 3. S'attribuer le rôle **Investigateur Principal** sur le DAG `Lyon_CLB`
-4. **Inviter Sanaé** avec le rôle `TRC` sur le DAG `Paris_IGR`
-5. Vérifier que Sanaé ne peut voir que les données de Paris
+4. **Inviter Joséphine** avec le rôle `TRC` sur le DAG `Paris_IGR`
+5. Vérifier que Joséphine ne peut voir que les données de Paris
 
-**Sanaé** construit son propre projet et réalise les mêmes actions en miroir :
+**Joséphine** construit son propre projet et réalise les mêmes actions en miroir :
 1. S'attribuer le rôle **Investigateur Principal** sur le DAG `Paris_IGR`
 2. **Inviter Mélodie** avec le rôle `TRC` sur le DAG `Lyon_CLB`
 3. Vérifier que Mélodie ne peut voir que les données de Lyon
